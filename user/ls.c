@@ -40,7 +40,7 @@ ls(char *path)
     fprintf(2, "ls: cannot stat %s\n", path);
     close(fd);
     return;
-  }
+  } 
 
   switch(st.type){
   case T_DEVICE:
